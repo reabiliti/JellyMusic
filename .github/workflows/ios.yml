@@ -1,0 +1,43 @@
+name: iOS
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  build:
+    name: Build
+    runs-on: macos-15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode.app
+
+      - name: Build app
+        run: |
+          xcodebuild \
+            -project JellyMusic.xcodeproj \
+            -scheme JellyMusic \
+            -configuration Debug \
+            -destination generic/platform=iOS \
+            -derivedDataPath ./DerivedData \
+            CODE_SIGNING_ALLOWED=NO \
+            build
+
+      - name: Run unit tests
+        run: |
+          DEVICE_ID="$(xcrun simctl list devices available | awk -F '[()]' '/iPhone/ { print $2; exit }')"
+          xcodebuild \
+            -project JellyMusic.xcodeproj \
+            -scheme JellyMusic \
+            -configuration Debug \
+            -destination "platform=iOS Simulator,id=${DEVICE_ID}" \
+            -derivedDataPath ./DerivedData \
+            CODE_SIGNING_ALLOWED=NO \
+            test

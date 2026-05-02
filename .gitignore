@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Xcode build output
+DerivedData/
+.DerivedData/
+build/
+Build/
+*.xcactivitylog
+*.xcresult
+*.xcarchive
+*.dSYM
+
+# App distribution artifacts
+*.ipa
+*.app
+
+# Swift Package Manager scratch data
+.build/
+Packages/
+
+# Keep shared Xcode metadata that should be committed.
+!JellyMusic.xcodeproj/xcshareddata/
+!JellyMusic.xcodeproj/xcshareddata/xcschemes/
+!JellyMusic.xcodeproj/xcshareddata/xcschemes/*.xcscheme

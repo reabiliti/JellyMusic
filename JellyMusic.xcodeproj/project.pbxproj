@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F1A00000000000000000001 /* JellyMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A00000000000000000011 /* JellyMusicApp.swift */; };
+		9F1A00000000000000000002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A00000000000000000012 /* Models.swift */; };
+		9F1A00000000000000000003 /* AppSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A00000000000000000013 /* AppSession.swift */; };
+		9F1A00000000000000000004 /* CredentialsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A00000000000000000014 /* CredentialsStore.swift */; };
+		9F1A00000000000000000005 /* JellyfinClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A00000000000000000015 /* JellyfinClient.swift */; };
+		9F1A00000000000000000006 /* PlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A00000000000000000016 /* PlayerService.swift */; };
+		9F1A00000000000000000007 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A00000000000000000017 /* DownloadManager.swift */; };
+		9F1A00000000000000000008 /* LocalLibraryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A00000000000000000018 /* LocalLibraryStore.swift */; };
+		9F1A00000000000000000009 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A00000000000000000019 /* Views.swift */; };
+		9F1A0000000000000000000A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A0000000000000000001A /* Assets.xcassets */; };
+		9F1A0000000000000000000C /* LibraryFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A0000000000000000001C /* LibraryFilters.swift */; };
+		9F1A0000000000000000000D /* PlaybackQueuePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A0000000000000000001D /* PlaybackQueuePolicy.swift */; };
+		9F1A0000000000000000000E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A0000000000000000001E /* Localizable.strings */; };
+		9F1A000000000000000000A1 /* LibraryFiltersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A000000000000000000B1 /* LibraryFiltersTests.swift */; };
+		9F1A000000000000000000A2 /* PlaybackQueuePolicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A000000000000000000B2 /* PlaybackQueuePolicyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F1A000000000000000000A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1A00000000000000000061 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1A00000000000000000041;
+			remoteInfo = JellyMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F1A0000000000000000000B /* JellyMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JellyMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1A00000000000000000011 /* JellyMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JellyMusicApp.swift; sourceTree = "<group>"; };
+		9F1A00000000000000000012 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		9F1A00000000000000000013 /* AppSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSession.swift; sourceTree = "<group>"; };
+		9F1A00000000000000000014 /* CredentialsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsStore.swift; sourceTree = "<group>"; };
+		9F1A00000000000000000015 /* JellyfinClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JellyfinClient.swift; sourceTree = "<group>"; };
+		9F1A00000000000000000016 /* PlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerService.swift; sourceTree = "<group>"; };
+		9F1A00000000000000000017 /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		9F1A00000000000000000018 /* LocalLibraryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLibraryStore.swift; sourceTree = "<group>"; };
+		9F1A00000000000000000019 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		9F1A0000000000000000001A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F1A0000000000000000001B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1A0000000000000000001C /* LibraryFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryFilters.swift; sourceTree = "<group>"; };
+		9F1A0000000000000000001D /* PlaybackQueuePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackQueuePolicy.swift; sourceTree = "<group>"; };
+		9F1A0000000000000000001F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9F1A00000000000000000020 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9F1A000000000000000000A0 /* JellyMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JellyMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1A000000000000000000B1 /* LibraryFiltersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryFiltersTests.swift; sourceTree = "<group>"; };
+		9F1A000000000000000000B2 /* PlaybackQueuePolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackQueuePolicyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F1A00000000000000000021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1A000000000000000000A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F1A00000000000000000031 = {
+			isa = PBXGroup;
+			children = (
+				9F1A00000000000000000032 /* JellyMusic */,
+				9F1A00000000000000000034 /* JellyMusicTests */,
+				9F1A00000000000000000033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F1A00000000000000000032 /* JellyMusic */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A00000000000000000011 /* JellyMusicApp.swift */,
+				9F1A00000000000000000012 /* Models.swift */,
+				9F1A00000000000000000013 /* AppSession.swift */,
+				9F1A00000000000000000014 /* CredentialsStore.swift */,
+				9F1A00000000000000000015 /* JellyfinClient.swift */,
+				9F1A00000000000000000016 /* PlayerService.swift */,
+				9F1A00000000000000000017 /* DownloadManager.swift */,
+				9F1A00000000000000000018 /* LocalLibraryStore.swift */,
+				9F1A0000000000000000001C /* LibraryFilters.swift */,
+				9F1A0000000000000000001D /* PlaybackQueuePolicy.swift */,
+				9F1A00000000000000000019 /* Views.swift */,
+				9F1A0000000000000000001A /* Assets.xcassets */,
+				9F1A0000000000000000001E /* Localizable.strings */,
+				9F1A0000000000000000001B /* Info.plist */,
+			);
+			path = JellyMusic;
+			sourceTree = "<group>";
+		};
+		9F1A00000000000000000034 /* JellyMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A000000000000000000B1 /* LibraryFiltersTests.swift */,
+				9F1A000000000000000000B2 /* PlaybackQueuePolicyTests.swift */,
+			);
+			path = JellyMusicTests;
+			sourceTree = "<group>";
+		};
+		9F1A00000000000000000033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A0000000000000000000B /* JellyMusic.app */,
+				9F1A000000000000000000A0 /* JellyMusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F1A00000000000000000041 /* JellyMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1A00000000000000000070 /* Build configuration list for PBXNativeTarget "JellyMusic" */;
+			buildPhases = (
+				9F1A00000000000000000051 /* Sources */,
+				9F1A00000000000000000021 /* Frameworks */,
+				9F1A00000000000000000052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JellyMusic;
+			productName = JellyMusic;
+			productReference = 9F1A0000000000000000000B /* JellyMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F1A000000000000000000A4 /* JellyMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1A000000000000000000A9 /* Build configuration list for PBXNativeTarget "JellyMusicTests" */;
+			buildPhases = (
+				9F1A000000000000000000A5 /* Sources */,
+				9F1A000000000000000000A6 /* Frameworks */,
+				9F1A000000000000000000A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1A000000000000000000A8 /* PBXTargetDependency */,
+			);
+			name = JellyMusicTests;
+			productName = JellyMusicTests;
+			productReference = 9F1A000000000000000000A0 /* JellyMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F1A00000000000000000061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9F1A00000000000000000041 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					9F1A000000000000000000A4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 9F1A00000000000000000041;
+					};
+				};
+			};
+			buildConfigurationList = 9F1A00000000000000000062 /* Build configuration list for PBXProject "JellyMusic" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+				Base,
+			);
+			mainGroup = 9F1A00000000000000000031;
+			productRefGroup = 9F1A00000000000000000033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F1A00000000000000000041 /* JellyMusic */,
+				9F1A000000000000000000A4 /* JellyMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F1A00000000000000000052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1A0000000000000000000A /* Assets.xcassets in Resources */,
+				9F1A0000000000000000000E /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1A000000000000000000A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F1A00000000000000000051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1A00000000000000000001 /* JellyMusicApp.swift in Sources */,
+				9F1A00000000000000000002 /* Models.swift in Sources */,
+				9F1A00000000000000000003 /* AppSession.swift in Sources */,
+				9F1A00000000000000000004 /* CredentialsStore.swift in Sources */,
+				9F1A00000000000000000005 /* JellyfinClient.swift in Sources */,
+				9F1A00000000000000000006 /* PlayerService.swift in Sources */,
+				9F1A00000000000000000007 /* DownloadManager.swift in Sources */,
+				9F1A00000000000000000008 /* LocalLibraryStore.swift in Sources */,
+				9F1A0000000000000000000C /* LibraryFilters.swift in Sources */,
+				9F1A0000000000000000000D /* PlaybackQueuePolicy.swift in Sources */,
+				9F1A00000000000000000009 /* Views.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1A000000000000000000A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1A000000000000000000A1 /* LibraryFiltersTests.swift in Sources */,
+				9F1A000000000000000000A2 /* PlaybackQueuePolicyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F1A000000000000000000A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1A00000000000000000041 /* JellyMusic */;
+			targetProxy = 9F1A000000000000000000A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F1A0000000000000000001E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F1A0000000000000000001F /* en */,
+				9F1A00000000000000000020 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F1A00000000000000000063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F1A00000000000000000064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F1A00000000000000000071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5GTB9MKNF;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = JellyMusic/Info.plist;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reabiliti.jellymusic.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F1A00000000000000000072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5GTB9MKNF;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = JellyMusic/Info.plist;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reabiliti.jellymusic.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F1A000000000000000000AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5GTB9MKNF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reabiliti.jellymusic.test.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JellyMusic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JellyMusic";
+			};
+			name = Debug;
+		};
+		9F1A000000000000000000AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5GTB9MKNF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reabiliti.jellymusic.test.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JellyMusic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JellyMusic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F1A00000000000000000062 /* Build configuration list for PBXProject "JellyMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1A00000000000000000063 /* Debug */,
+				9F1A00000000000000000064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1A00000000000000000070 /* Build configuration list for PBXNativeTarget "JellyMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1A00000000000000000071 /* Debug */,
+				9F1A00000000000000000072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1A000000000000000000A9 /* Build configuration list for PBXNativeTarget "JellyMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1A000000000000000000AA /* Debug */,
+				9F1A000000000000000000AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F1A00000000000000000061 /* Project object */;
+}
